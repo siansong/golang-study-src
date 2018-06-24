@@ -1,5 +1,5 @@
 package main
-
+//ok 来测试下高清效果
 import (
 	"fmt"
 	"math/rand"
