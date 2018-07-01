@@ -71,7 +71,6 @@ func main() {
 	e.GET("/", hello)
 	e.POST("/users", login)
 	e.POST("/users/_validate", validateLogin)
-	e
 
 	e.Logger.Fatal(e.Start(":1323"))
 }
