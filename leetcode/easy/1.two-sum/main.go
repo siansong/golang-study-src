@@ -51,7 +51,7 @@ func twoSumFn1(nums []int, target int) []int {
 	return nil
 }
 
-//v3,单次遍历计算差值，检查存在，时间复杂度n, 空间复杂度n (时间复杂度和v2一样，但是具体遍历次数确实少了1轮)
+//v3,单次遍历计算差值，检查存在，时间复杂度n, 空间复杂度n (时间复杂度规模和v2一样，但是具体遍历次数确实少了1轮)
 func twoSumFn2(nums []int, target int) []int {
 	m := make(map[int]int)
 	for indexY, y := range nums {
